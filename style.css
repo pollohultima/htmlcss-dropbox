@@ -11,7 +11,7 @@
     clear: both;
 }
 
-/* Header Style */
+/* Header style */
 
 .site_header {
     position: fixed;
@@ -55,7 +55,7 @@ a {
 
 /* Main style */
 
-/* Hero image */
+/* Hero image style */
 
 .hero_image {
     padding-top: 100px;
@@ -63,7 +63,7 @@ a {
 }
 
 .hero_container {
-    width: 75%;
+    width: 78%;
     margin: auto;
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 h1 {
-    font-size: 4.2rem;
+    font-size: 4.3rem;
 }
 
 .its_dropbox {
@@ -88,13 +88,110 @@ h1 {
 
 .arrow {
     padding-top: 1.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
     font-size: 2rem;
 }
 
 .jumbo {
-    width: 700px;
+    width: 740px;
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+/* Plans style */
+
+.plans {
+    padding-top: 200px;
+    width: 66%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.9rem;
+}
+
+.bill_type {
+    padding-top: 3rem;
+}
+
+.circle {
+    border-radius: 100%;
+    color: transparent;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.check {
+    border: 4px solid #0061FF;
+}
+
+.yearly {
+    padding-left: 1rem;
+}
+
+.uncheck {
+    border: 1px solid lightgray;
+    font-size: 11px;
+}
+
+.plan {
+    width: 30%;
+    margin-top: 2rem;
+    float: left;
+    display: inline;
+    border: 2px solid lightgray;
+}
+
+.main_plan {
+    width: 80%;
+    margin: auto;
+}
+
+.mid {
+    margin: 0 5%;
+    margin-top: 2rem;
+}
+
+.head {
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+.type, .storage, .functions, .buynow {
+    padding-top: 2rem;
+}
+
+.price {
+    padding-top: 1rem;
+}
+
+.month {
+    padding-top: .5rem;
+}
+
+.users {
+    padding-top: 3.5rem;
+}
+
+.functions {
+    padding-bottom: 3.5rem;
+}
+
+.hr {
+    height: 2rem;
+    width: 50px;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid lightgray;
+}
+
+li {
+    padding-top: 1.5rem;
+    list-style: none;
+}
+
+.fa-check {
+    color: #0665ff;
 }
