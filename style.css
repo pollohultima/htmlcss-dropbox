@@ -147,7 +147,6 @@ h3 {
     width: 30%;
     margin-top: 2rem;
     float: left;
-    display: inline;
     border: 2px solid lightgray;
 }
 
@@ -241,8 +240,8 @@ li {
 /* Partner style */
 
 .partner {
-    padding-top: 7rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
 }
 
 .partner_img {
@@ -264,4 +263,30 @@ li {
     background-color: white;
     border: 1px solid black;
     color: black;
+}
+
+/* Operations */
+
+.operations h2 {
+    font-size: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.tool {
+    width: 30%;
+    float: left;
+    padding-bottom: 5rem;
+}
+
+.middle {
+    margin: 0 5%;
+}
+
+.tool img {
+    width: 100%;
+}
+
+.tool h3 {
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
 }
