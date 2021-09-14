@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
 }
 
 .clearfix::after {
@@ -101,7 +102,7 @@ h1 {
 
 /* Plans style */
 
-.plans {
+.main_container {
     padding-top: 200px;
     width: 66%;
     margin: auto;
@@ -109,6 +110,10 @@ h1 {
 
 h2 {
     font-size: 2.9rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 .bill_type {
@@ -187,6 +192,10 @@ h2 {
     border-bottom: 2px solid lightgray;
 }
 
+ul {
+    padding-bottom: 7rem;
+}
+
 li {
     padding-top: 1.5rem;
     list-style: none;
@@ -194,4 +203,34 @@ li {
 
 .fa-check {
     color: #0665ff;
+}
+
+/* Enterprise style */
+
+.enterprise {
+    margin-top: 3rem;
+    border: 2px solid lightgray;
+}
+
+#sell_office {
+    position: absolute;
+    top: 2rem;
+    right: -20px;
+    padding: 5px 50px;
+}
+
+.ent_cont {
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.contact_sells {
+    padding-top: 1.5rem;
+}
+
+.solutions {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
