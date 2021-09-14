@@ -52,3 +52,49 @@ a {
     padding: 5px 20px;
     color: white;
 }
+
+/* Main style */
+
+/* Hero image */
+
+.hero_image {
+    padding-top: 100px;
+    background-color: #b4d0e7;
+}
+
+.hero_container {
+    width: 75%;
+    margin: auto;
+}
+
+.subcont_hero {
+    position: relative;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+.its_dropbox {
+    width: 360px;
+    padding-bottom: 2rem;
+}
+
+.deny {
+    padding-top: 1rem;
+    font-size: .75rem;
+}
+
+.arrow {
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.jumbo {
+    width: 700px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
