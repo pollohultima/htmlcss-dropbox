@@ -10,3 +10,38 @@
     display: table;
     clear: both;
 }
+
+nav {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.navbar_sx, .navbar_dx {
+    line-height: 60px;
+}
+
+.navbar_sx a {
+    padding-right: 40px;
+}
+
+.navbar_sx a, .navbar_dx a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.navbar_dx {
+    float: right;
+}
+
+.navbar_dx a {
+    margin-left: 40px;
+}
+
+.start {
+    background-color: #0061FF;
+    padding: 5px 10px;
+}
