@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.95rem;
 }
 
 .clearfix::after {
@@ -16,6 +15,7 @@
 
 .site_header {
     position: fixed;
+    font-size: 1rem;
 }
 
 nav {
@@ -52,6 +52,7 @@ a {
     background-color: #0061FF;
     padding: 5px 20px;
     color: white;
+    font-size: 1rem;
 }
 
 /* Main style */
@@ -66,6 +67,7 @@ a {
 .hero_container {
     width: 78%;
     margin: auto;
+    font-size: 1rem;
 }
 
 .subcont_hero {
@@ -106,6 +108,7 @@ h1 {
     padding-top: 200px;
     width: 66%;
     margin: auto;
+    font-size: 0.95rem;
 }
 
 h2 {
@@ -233,4 +236,32 @@ li {
 .solutions {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
+}
+
+/* Partner style */
+
+.partner {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.partner_img {
+    width: 50%;
+    float: left;
+}
+
+.partner_text {
+    width: 50%;
+    float: left;
+    padding: 3rem;
+}
+
+.partner_p {
+    padding: 2rem 0;
+}
+
+#find_partner {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
