@@ -214,13 +214,18 @@ h3 {
     padding-bottom: 7rem;
 }
 
+.features_list li:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    color: #0665ff;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+
 li {
     padding-top: 1.5rem;
     list-style: none;
-}
-
-.fa-check {
-    color: #0665ff;
 }
 
 /* Enterprise style */
@@ -488,7 +493,7 @@ li {
 }
 
 .footer_list li {
-    padding-top: .75rem;
+    padding-top: 1rem;
 }
 
 .footer_list {
@@ -505,7 +510,7 @@ li a {
     border-top: 2px solid lightgray;
     float: left;
     position: absolute;
-    bottom: -120px;
+    bottom: -130px;
     left: 0;
 }
 
