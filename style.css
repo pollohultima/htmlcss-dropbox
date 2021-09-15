@@ -223,8 +223,9 @@ h3 {
     width: 1.3em;
 }
 
-li {
+.features_list li {
     padding-top: 1.5rem;
+    padding-left: 18px;
     list-style: none;
 }
 
