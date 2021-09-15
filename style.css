@@ -360,9 +360,18 @@ li {
 .item {
     width: 50%;
     float: left;
-    height: 50%;
     position: relative;
     padding: 7rem;
+}
+
+.bordered {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #D0E9CD;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .asu {
