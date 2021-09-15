@@ -14,13 +14,17 @@
 /* Header style */
 
 .site_header {
-    position: fixed;
     font-size: 1rem;
 }
 
 nav {
     width: 100%;
     padding: 0 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 2;
 }
 
 .navbar_sx, .navbar_dx {
@@ -183,6 +187,11 @@ h3 {
     padding-top: 3.5rem;
 }
 
+.blue {
+    text-decoration: underline;
+    color: #0665ff;
+}
+
 .functions {
     padding-bottom: 3.5rem;
 }
@@ -267,6 +276,10 @@ li {
 
 /* Operations */
 
+.operations {
+    padding-bottom: 10rem;
+}
+
 .operations h2 {
     font-size: 2.5rem;
     padding-bottom: 4rem;
@@ -289,4 +302,70 @@ li {
 .tool h3 {
     font-size: 1.4rem;
     padding-bottom: 1.5rem;
+}
+
+/* Business_team style */
+
+.business_teams h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    width: 56%;
+}
+
+.business_container {
+    width: 98.9vw;
+    position: relative;
+    left: -258px;
+    top: 2rem;
+}
+
+.teams_sx {
+    float: left;
+    width: 30%;
+    background-color: cadetblue;
+    height: 455px;
+}
+
+.teams_mid {
+    float: left;
+    width: 40%;
+    background-color: violet;
+}
+
+.teams_dx {
+    float: left;
+    width: 30%;
+    background-color: cadetblue;
+}
+
+.designit {
+    background-color: #A2D39B;
+}
+
+.designit img, .asu img, .uf img, .topps img {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item {
+    width: 50%;
+    float: left;
+    height: 50%;
+    position: relative;
+    padding: 7rem;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
 }
