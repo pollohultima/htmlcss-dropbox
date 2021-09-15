@@ -112,7 +112,7 @@ h1 {
     padding-top: 200px;
     width: 66%;
     margin: auto;
-    font-size: 0.95rem;
+    font-size: 0.90rem;
 }
 
 h2 {
@@ -203,7 +203,7 @@ h3 {
     border-bottom: 2px solid lightgray;
 }
 
-ul {
+.plans ul {
     padding-bottom: 7rem;
 }
 
@@ -317,6 +317,7 @@ li {
     position: relative;
     left: -258px;
     top: 2rem;
+    background-color: #f5f5f5;
 }
 
 .teams_sx {
@@ -366,18 +367,21 @@ li {
 
 .teams_mid {
     float: left;
+    box-sizing: content-box;
     width: 40%;
-    background-color: #f5f5f5;
-    padding: 2.5rem;
-    padding-bottom: 7%;
+    margin: auto;
 }
 
-.teams_mid img {
+.mid_cont {
+    padding: 2.5rem;
+}
+
+.mid_cont>img {
     width: 26%;
 }
 
-.cit {
-    padding-bottom: 3rem;
+.author {
+    padding-top: 2.5rem;
 }
 
 .bycicle {
@@ -448,4 +452,58 @@ li {
 
 .question>span {
     font-weight: bold;
+}
+
+/* Footer style */
+
+.site_footer {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    background-color: black;
+    color: white;
+    font-size: .8rem;
+}
+
+.footer_container {
+    width: 78%;
+    margin: auto;
+    position: relative;
+}
+
+.colomn {
+    float: left;
+    width: 20%;
+}
+
+.colomn h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.footer_list li {
+    padding-top: .75rem;
+}
+
+.footer_list {
+    padding-bottom: 6rem;
+}
+
+li a {
+    color: white;
+}
+
+.language {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    border-top: 2px solid lightgray;
+    float: left;
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+}
+
+.italian {
+    background-color: transparent;
+    color: white;
+    border-style: none;
 }
