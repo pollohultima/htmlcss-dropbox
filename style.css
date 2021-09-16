@@ -11,11 +11,11 @@
     clear: both;
 }
 
-/* Header style */
-
-.site_header {
-    font-size: 1rem;
+body {
+    min-width: 1519.100px;
 }
+
+/* Header style */
 
 nav {
     width: 100%;
@@ -26,14 +26,37 @@ nav {
     background-color: white;
     z-index: 2;
     font-size: .9rem;
+    border-bottom: 2px solid lightgray;
 }
 
 .navbar_sx, .navbar_dx {
     line-height: 60px;
 }
 
+.navbar_sx {
+    float: left;
+}
+
 .navbar_sx a {
-    padding-right: 40px;
+    float: left;
+    transition: all 0s linear;
+}
+
+.u:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.space {
+    float: left;
+    height: 60px;
+    width: 40px;
+}
+
+.space_rx {
+    float: right;
+    height: 60px;
+    width: 40px;
 }
 
 a {
@@ -50,13 +73,39 @@ a {
 }
 
 .navbar_dx a {
-    margin-left: 40px;
+    float: right;
+    transition: all 0s linear;
 }
 
 .button {
     background-color: #0061FF;
     padding: 5px 20px;
     color: white;
+    transition: all 0.2s linear;
+}
+
+.button:hover {
+    filter: brightness(130%);
+}
+
+#tendina {
+    position: relative;
+    display: inline-block;
+}
+
+.tendina_opzioni {
+    display: none;
+    z-index: 1;
+}
+
+#tendina:hover .tendina_opzioni {
+    display: block;
+}
+
+#start {
+    line-height: 20px;
+    position: relative;
+    top: 14px;
 }
 
 /* Main style */
@@ -64,7 +113,7 @@ a {
 /* Hero image style */
 
 .hero_image {
-    padding-top: 100px;
+    padding-top: 170px;
     background-color: #b4d0e7;
 }
 
@@ -109,10 +158,14 @@ h1 {
 /* Plans style */
 
 .main_container {
-    padding-top: 200px;
+    padding-top: 150px;
     width: 66%;
     margin: auto;
     font-size: 0.90rem;
+}
+
+#scroll {
+    padding-top: 50px;
 }
 
 h2 {
@@ -152,6 +205,7 @@ h3 {
     margin-top: 2rem;
     float: left;
     border: 2px solid lightgray;
+    font-size: .8rem;
 }
 
 .main_plan {
@@ -285,6 +339,11 @@ h3 {
     background-color: white;
     border: 1px solid black;
     color: black;
+    transition: all 0.2s linear;
+}
+
+#find_partner:hover, #freetrial:hover {
+    filter: brightness(.9);
 }
 
 /* Operations */
@@ -448,6 +507,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 7rem;
+    transition: all 0.2s linear;
 }
 
 /* Faq style */

@@ -17,20 +17,29 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header class="siteheader">
+        <header class="site_header clearfix">
             <nav>
-                <span class="navbar_sx">
+                <span class="navbar_sx clearfix">
                     <a href=""><img src="./img/logo-small (1).png" alt=""
                             class="logo"></a>
-                    <a href="">Perchè Dropbox?</a>
-                    <a href="">Funzioni</a>
-                    <a href="">Piani e prezzi</a>
+                    <div class="space"></div>
+                    <a href="" class="u">Perchè Dropbox?</a>
+                     <div class="space"></div>
+                    <a href="" class="u">Funzioni</a>
+                     <div class="space"></div>
+                    <a href="" class="u">Piani e prezzi</a>
                 </span>
                 <div class="navbar_dx clearfix">
-                    <a href="">Supporto</a>
-                    <a href="">Contatta l'ufficio vendite</a>
-                    <a href="">Accedi</a>
-                    <a href="" class="button">Inizia</a>
+                    <a href="" class="button" id="start">Inizia</a>
+                    <div class="space_rx"></div>
+                    <a href="" class="u">Accedi</a>
+                    <div class="space_rx"></div>
+                    <a href="" class="u">Contatta l'ufficio vendite</a>
+                    <div class="space_rx"></div>
+                    <a href="" class="u" id="tendina">Supporto</a>
+                    <div class="tendina_opzioni">
+                        <p>prova</p>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -52,14 +61,15 @@
                         <a href="" class="button">Inizia la prova
                             gratuita</a>
                         <div class="deny">Annulla in qualsiasi momento</div>
-                        <div class="arrow"><i class="fas fa-arrow-down"></i></div>
+                        <div class="arrow"><a href="#scroll"><i class="fas fa-arrow-down"></i></a></div>
                         <img src="./img/jumbo.png" alt="" class="jumbo">
                     </div>
                 </div>
 
             </div>
-            <div class="main_container">
-                <div class="plans clearfix">
+            <div class="main_container" >
+                <div id="scroll"></div>
+                <div class="plans clearfix" >
                     <h2>Trova il piano Business che fa per te</h2>
                     <div class="bill_type">
                         <span class="monthly"><span class="circle check">a a</span>
@@ -171,7 +181,7 @@
                     <div class="head"><i class="far fa-building"></i> Team</div>
                     <div class="ent_cont">
                         <h3>Enterprise</h3>
-                        <a class="button" id="sell_office">Contatta l'ufficio
+                        <a class="button" href="" id="sell_office">Contatta l'ufficio
                             vendite</a>
                         <h4 class="contact_sells">Contatta l'ufficio vendite per i
                             prezzi</h4>
