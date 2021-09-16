@@ -19,6 +19,7 @@ body {
 
 nav {
     width: 100%;
+    height: 60px;
     padding: 0 20px;
     position: fixed;
     top: 0px;
@@ -42,9 +43,12 @@ nav {
     transition: all 0s linear;
 }
 
+.u {
+    height: 58px;
+}
+
 .u:hover {
     border-bottom: 2px solid black;
-    margin-bottom: -2px;
 }
 
 .space {
@@ -70,6 +74,7 @@ a {
 
 .navbar_dx {
     float: right;
+    position: relative;
 }
 
 .navbar_dx a {
@@ -88,17 +93,36 @@ a {
     filter: brightness(130%);
 }
 
-#tendina {
+.tendina {
     position: relative;
     display: inline-block;
 }
 
 .tendina_opzioni {
+    padding-top: .5rem;
     display: none;
-    z-index: 1;
+    z-index: 2;
+    min-width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    font-size: .8rem;
 }
 
-#tendina:hover .tendina_opzioni {
+.tendina_opzioni a {
+    padding: 5px .5rem;
+    float: left;
+    line-height: 2rem;
+    transition: all 0s linear;
+    width: 100%;
+}
+
+.tendina_opzioni a:hover {
+    background-color: rgba(211, 211, 211, 0.589);
+}
+
+.tendina:hover .tendina_opzioni {
     display: block;
 }
 
@@ -522,14 +546,34 @@ h3 {
 }
 
 .question {
+    box-sizing: content-box;
     position: relative;
     padding: 2rem 0;
     border-bottom: 2px solid lightgray;
+    transition: all 0.2s linear;
+}
+
+.answer {
+    padding-top: 2rem;
+    display: none;
+    font-size: .8rem;
+    color: grey;
+}
+
+.question:hover .answer {
+    display: block;
+}
+
+.question:hover .fa-angle-down {
+    transform: rotate(.5turn);
 }
 
 .fa-angle-down {
     font-size: 2rem;
-    float: right;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    transition: all 0s linear;
 }
 
 .question>span {
@@ -564,6 +608,12 @@ h3 {
 
 .footer_list li {
     padding-top: 1rem;
+    list-style: none;
+    transition: all 0s linear;
+}
+
+.footer_list li:hover {
+    text-decoration: underline;
 }
 
 .footer_list {
