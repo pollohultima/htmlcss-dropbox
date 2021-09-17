@@ -123,5 +123,64 @@ a img {
 
 .link_blue {
     color: #0061FF;
-    text-decoration: underline;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.logo_pos {
+    position: relative;
+}
+
+.login_button {
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 33px;
+    display: block;
+}
+
+#google {
+    background-color: #0061FF;
+    border: 1px solid #0341a7;
+}
+
+.icon {
+    position: absolute;
+    padding: 0 10px;
+    height: 34px;
+}
+
+#dx_border {
+    border-right: 1px solid #0341a7;
+}
+
+#apple {
+    margin-top: 20px;
+    background-color: black;
+}
+
+.or {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+}
+
+.line {
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    position: relative;
+    top: 12px;
+}
+
+.or span {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
 }
