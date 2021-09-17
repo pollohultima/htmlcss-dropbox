@@ -28,7 +28,8 @@ body {
     z-index: 1;
     font-size: .9rem;
     margin: auto;
-    filter: drop-shadow(2px 2px 2px grey);
+    border-bottom: 2px solid gray;
+    filter: drop-shadow(2px 2px 1px grey);
 }
 
 .navbar {
@@ -135,7 +136,7 @@ a img {
 
 .login_button {
     transition: all 0.2s linear;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
     width: 100%;
     text-align: center;
@@ -183,4 +184,34 @@ a img {
     position: relative;
     z-index: 1;
     padding: 0 5px;
+}
+
+.size {
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 33px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.login {
+    margin-bottom: 10px;
+    background-color: #2377ff;
+    border: 1px solid #0341a7;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: white;
+    float: right;
+}
+
+.remember {
+    float: left;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+#fpw {
+    float: left;
+    font-size: 14px;
 }
