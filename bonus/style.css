@@ -61,7 +61,7 @@ body {
 }
 
 .u:hover {
-    border-bottom: 2px solid #0061FF;
+    border-bottom: 3px solid #0061FF;
 }
 
 a {
@@ -214,4 +214,58 @@ a img {
 #fpw {
     float: left;
     font-size: 14px;
+}
+
+/* footer style */
+
+.site_footer {
+    margin-top: 10rem;
+    padding-bottom: 8rem;
+    color: gray;
+    font-size: .8rem;
+}
+
+.footer_container {
+    width: 67%;
+    margin: auto;
+    position: relative;
+    border-top: 2px solid lightgray;
+    padding-top: 3rem;
+}
+
+.colomn {
+    float: left;
+    width: 20%;
+    padding-left: 10px;
+}
+
+.colomn h4, a h4 {
+    font-size: 14px;
+}
+
+.footer_list li {
+    list-style: none;
+    transition: all 0s linear;
+    line-height: 24px;
+}
+
+.footer_list li:hover {
+    text-decoration: underline;
+}
+
+.footer_list {
+    padding-bottom: 6rem;
+}
+
+li a {
+    color: gray;
+}
+
+.language {
+    float: right;
+    color: gray;
+}
+
+a h4 {
+    display: inline;
 }
